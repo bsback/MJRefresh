@@ -164,4 +164,10 @@
     // 重新设置key（重新显示时间）
     self.lastUpdatedTimeKey = self.lastUpdatedTimeKey;
 }
+
+-(void)setColor:(UIColor *)color{
+    self.stateLabel.textColor = color;
+    self.lastUpdatedTimeLabel.textColor = color;
+}
+
 @end
