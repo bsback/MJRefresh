@@ -238,6 +238,11 @@
         }
     });
 }
+
+-(void)setColor:(UIColor *)color{
+}
+
+
 @end
 
 @implementation UILabel(MJRefresh)
