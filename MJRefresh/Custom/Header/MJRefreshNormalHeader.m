@@ -124,4 +124,12 @@
         self.arrowView.hidden = YES;
     }
 }
+
+-(void)setColor:(UIColor *)color{
+    [super setColor:color];
+    
+    self.loadingView.color = color;
+    
+}
+
 @end
